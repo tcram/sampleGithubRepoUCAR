@@ -1,0 +1,6 @@
+# This is a bash script
+
+for file in my10{f..j}.txt;
+do
+cat sample_my10.txt >> $file
+done
